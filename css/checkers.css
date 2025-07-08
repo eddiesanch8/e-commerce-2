@@ -1,0 +1,147 @@
+body{
+
+    background: hsl(231, 86%, 58%) url(../images/synthwave-8103557_1920.jpg) center center; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.main-container{
+    display:flex;
+
+}
+/*  */
+.checkerboard__container{
+    border: 10px solid #c17f1b;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    align-content: flex-start;
+    margin: 0 auto;
+}
+
+.checkerboard__h2{
+
+    font-size: 1.5rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.checkerboard__para{
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px 5px;
+}
+
+
+.checkerboard--white{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.checkerboard--black{
+
+    width: 50px;
+    height: 50px;
+    background-color:black;
+}
+
+/* Second Checkerboard  */
+
+
+.checker__table{
+    border: 10px solid #c17f1b;
+    width: 420px;
+    height: 420px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+
+.checker__tabledata {
+    width: 50px;
+    height: 50px;
+        
+}
+
+.checker__tabledata--black{
+
+ background-color:black;
+ color: white;
+
+}
+
+.checker__tabledata--white{
+
+background-color:white;
+}
+
+/* Mobile */
+@media screen and (min-width:300px) and (max-width:530px){
+
+.main-container{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+.checkerboard__container{
+    width: 220px;
+    height: 220px;
+}
+
+
+.checkerboard--white{
+    width: 25px;
+    height: 25px;
+}
+
+.checkerboard--black{
+
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Second Table */
+
+.checker__table{
+    width: 220px;
+    height: 220px;    
+}
+
+
+
+.checker__tabledata {
+    width: 25px;
+    height: 25px;        
+}
+
+
+}
+
+
+/* Tablet */
+@media screen and (min-width:531px) and (max-width:1024px){
+
+
+    .main-container{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+}
+
+

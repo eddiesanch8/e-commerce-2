@@ -1,0 +1,79 @@
+
+/* Working ? */
+
+.flag__container{
+    width: 100vw;
+    height: 50vh;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flag__image{
+    height:55%;
+    position:absolute;
+}
+
+
+.flag__stripe {
+    width: 50%;
+    height: 7.69%;
+        
+}
+
+.flag__stripe--red{
+
+    background-color: red;
+
+}
+
+
+.flag__stripe--white{
+
+    background-color: #ffffff;
+
+}
+
+
+
+/* Mobile */
+@media screen and (min-width:300px) and (max-width:530px){
+
+    .flag__container{
+    width: 100vw;
+    height: 25vh;
+    flex-direction: column;
+}
+
+.flag__image{
+    height:50%;
+}
+
+
+.flag__stripe {
+    width: 75%;
+    height: 7.69%;
+        
+}
+
+}
+
+
+
+
+@media screen and (min-width:531px) and (max-width:1024px){
+
+
+ 
+.flag__stripe {
+    width: 80%;
+    height: 7.69%;
+        
+}
+
+.flag__image{
+    height:50%;
+}
+
+}

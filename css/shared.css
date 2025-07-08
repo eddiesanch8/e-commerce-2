@@ -1,0 +1,80 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Keyframes */
+
+@keyframes fade-down {
+
+    0%{ 
+        opacity: 0;
+        transform: translateY(-1.2rem) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+    
+}
+
+@keyframes fade-up {
+
+    0%{ 
+        opacity: 0;
+        transform: translateY(3rem) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+    
+}
+
+
+
+/* Nav Code */
+
+
+.header{
+    background-image: linear-gradient(#004aab, rgba(255, 255, 255, 0.132));
+    /* background-color: #004aab; */
+    width: 100vw;
+    animation: fade-down .8s;
+} 
+
+.header__nav{
+display: flex;
+justify-content: flex-end;
+
+}
+
+.header__ul{
+    display:flex; 
+    align-items: center;
+}
+
+.header__anchor:hover{
+
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.header__item{
+    list-style: none;
+    margin: 1rem 1.5rem;
+}
+
+.header__anchor{
+
+    text-decoration: none;
+    color:#ffffff;
+}
+
+ main{
+    animation: fade-up .8s;
+ }

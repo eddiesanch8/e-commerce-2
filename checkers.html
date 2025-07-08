@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo's Checkers</title>
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/checkers.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__item"> <a class="header__anchor" href="products/product-grid.html">Product Grid</a></li>
+                <li class="header__item"> <a class="header__anchor" href="checkers.html">Checkerboard</a></li>
+                <li class="header__item"> <a class="header__anchor" href="flag/flag.html">Flag Page</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- <nav class="mobile__nav">
+            <ul class="mobile__ul">
+                <li class="mobile__item"> <a class="mobile__anchor" href="products/product-grid.html">Product Grid</a></li>
+                <li class="mobile__item"> <a class="mobile__anchor" href="checkers.html">Checkerboard</a></li>
+                <li class="mobile__item"> <a class="mobile__anchor" href="flag/flag.html">Flag Page</a></li>
+            </ul>
+        </nav> -->
+
+
+
+    </header> 
+    
+
+
+    <main class="main-container">
+
+        <section class="checkerboard">
+            <h2 class="checkerboard__h2">Making a Flexbox Checkerboard</h2>
+            <p class="checkerboard__para">The following Checkerboard is made out of divs alternating in black and white. Using flexbox, we can create a repeating pattern.<p>
+                <div class="checkerboard__container">
+                    <!-- First Row 8x8 start on white-->
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+
+                     <!-- second row 8x8 start on black-->
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+
+                    <!-- Third row 8x8 start on white-->
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    
+                    <!-- Fourth row 8x8 start on black -->
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+
+                    <!-- Fifth row 8x8 start on white-->
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+
+                    <!-- Sixth row 8x8 start on black -->
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+
+                    <!-- Seventh Row 8x8 start on white -->
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+
+                    <!-- Eigth row 8x8 start on black -->
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+                    <div class="checkerboard--black"></div>
+                    <div class="checkerboard--white"></div>
+
+                </div>
+            </section>
+
+                <!-- End of Checkerboard with div -->
+
+                <section class="second-checker">
+                <h2 class="checkerboard__h2">Making a Table Checkerboard</h2>
+                 <p class="checkerboard__para">The following Checkerboard is made out of divs alternating in black and white. Using flexbox, we can create a repeating pattern.<p>
+                    <table class="checker__table" >
+                        <tbody class="checker__body">
+                            <!-- First Row 8x8 start with black -->
+                      <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                        </tr>
+                        <!-- Second Row 8x8 start on white-->
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                        </tr>
+
+                        <!-- Third Row 8x8 start on black -->
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                        </tr>
+
+                        <!-- Fourth Row 8x8 start on white -->
+
+                         <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                        </tr>
+
+                        <!--  Fifth Row 8x8 start on black-->
+
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                        </tr>
+                        <!-- Sixth Row 8x8 start on white -->
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                        </tr>
+
+                        <!-- Seventh Row -->
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                        </tr>
+
+                        <!-- Eight Row 8x8 start on white -->
+                        <tr class="checker__tr">
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                            <td class="checker__tabledata checker__tabledata--white" > </td>
+                            <td class="checker__tabledata checker__tabledata--black" > </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+         </section>
+
+    
+    </main>
+    
+    
+    <footer>
+
+
+    </footer>
+
+
+    
+</body>
+</html>

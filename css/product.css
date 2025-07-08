@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Noto+Kufi+Arabic:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+
+
+.product__container{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10rem 1fr 1fr 5%;
+    grid-template-areas: ". title title ."
+                        "product-1 product-2 product-3 product-4"
+                        "product-5 product-6 product-7 product-8"
+                        " footer footer footer footer " 
+;
+    gap: 1.2rem;
+}
+
+.product__grid{
+    padding:.8rem;
+    margin: .5rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product__header{
+    grid-area: title;
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    z-index: 1;
+    color:#004aab;
+    text-shadow: #000 2px 2px 2px 2px;
+    text-align: center;
+}
+
+
+.product__price{
+
+    color: #000;
+    font-size: 1.5rem;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.product__dollar{
+    color: #000000;
+    font-size: 1rem;
+    vertical-align: text-top;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.product__price--decimal{
+    color: #000;;
+    font-size: 1rem;
+    vertical-align: text-top;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Star Review Styling */
+.material-symbols-outlined {
+    color: #f4b700;
+    font-size: 1rem;
+    text-indent: -.5rem;
+}
+
+ .filled {
+    color: #f4b700;
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.product__reviews{
+
+    font-size: .8rem;
+    vertical-align: baseline;
+    color:#2525e6;
+    cursor: pointer;
+}
+
+.product__img{
+    max-width: 100%;
+    height: auto;
+  object-fit: cover; 
+}
+
+
+.product__name{
+    font-family: "Nunito Sans";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    text-align: left;
+}
+
+.product__description{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:#7d7d7d
+   
+
+}
+
+.product__button{
+    align-self: center;
+    border-style: none;
+    margin-top: .5rem;
+    padding: 1.2rem;
+    width: 100%;
+    background-color: white;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 1px solid #157a15;
+    color:#157a15;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.product__button:hover{
+
+    background-color: #71fbb28d;
+}
+
+/* Grid Area Assignments */
+.product__grid--1{
+
+    grid-area: product-1 ;
+}
+
+
+.product__grid--2{
+
+    grid-area: product-2 ;
+
+}
+
+.product__grid--3{
+
+    grid-area: product-3 ;
+
+}
+
+.product__grid--4{
+
+    grid-area: product-4 ;
+
+}
+
+.product__grid--5{
+
+    grid-area: product-5;
+}
+
+
+.product__grid--6{
+
+    grid-area: product-6;
+}
+
+
+.product__grid--7{
+
+    grid-area: product-7;
+}
+
+
+.product__grid--8{
+
+    grid-area: product-8;
+}
+
+.product__footer{
+
+    grid-area: footer;
+    width:100%;
+    background-color: #004aab;
+    color:#ffffff;
+}
+
+.footer__ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align:center;
+}
+
+.footer__li{
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 2rem 1.2rem 0 1.2rem;
+   
+}
+
+
+
+
+/* Media Query: Mobile */
+
+
+/* Media Query: Tablet */
+@media screen and (min-width:300px) and (max-width:530px){
+
+
+.product__container{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.product__header{
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #004aab;
+    border-radius: 20px;
+} 
+
+}
+
+
+
+@media screen and (min-width:531px) and (max-width:1024px){
+
+.product__container{
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.product__grid{
+    max-width: 8rem;
+    margin-top: 5rem;
+}
+
+.product__header{
+    position: absolute;
+    left: 14rem;
+    font-size: 2rem;
+
+} 
+
+
+}
+
+
