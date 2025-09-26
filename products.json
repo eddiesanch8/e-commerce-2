@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "John Deere S110",
+    "price": 2499.0,
+    "image": "images/riding-mower.avif",
+    "alt": "outdoor seated lawn mower",
+    "link": "https://www.lowes.com/pd/John-Deere-S110-19-HP-Side-By-Side-Hydrostatic-42-in-Riding-Lawn-Mower-with-Mulching-Capability-Kit-Sold-Separately/5001418907",
+    "rating": 4.5,
+    "reviews": 43,
+    "description": "The John Deere S110 lawn tractor is the middle tier 42-inch deck model of the 100 Series line up. S110 features a hydrostatic transmission, side-by-side foot pedals, enhanced styling, adjustable controls and 15-in open back seat."
+  },
+  {
+    "id": 2,
+    "name": "Pit Boss 850 DX",
+    "price": 499.0,
+    "image": "images/Grill_img.avif",
+    "alt": "Outdoor black grill",
+    "link": "https://www.lowes.com/pd/Pit-Boss-Pit-Boss-850-DX-Pellet-Grill/5015241543",
+    "rating": 4,
+    "reviews": 103,
+    "description": "Fueled by 100% Hardwood Pellets and comes with an adjustable smoke-stack for the perfect smoky flavor. High-temperature powder coat finish and a heavy-duty steel construction means this appliance is built to last."
+  },
+  {
+    "id": 3,
+    "name": "Toro Recycler Max",
+    "price": 499.0,
+    "image": "images/lawn-mower.avif",
+    "alt": "hand pushed mower",
+    "link": "https://www.lowes.com/pd/Toro-Recycler-Max-163-cc-22-in-Gas-Self-propelled-Lawn-Mower-with-Briggs-and-Stratton-Engine/5014875013",
+    "rating": 3,
+    "reviews": 30,
+    "description": "Designed from the ground up to put tough grass in its place, the Recycler Max effortlessly breezes through the yard with the high-performing Briggs & Stratton engine and Personal Pace Auto-Drive, complemented by FLEX Handle Suspension for top-tier comfort."
+  },
+  {
+    "id": 4,
+    "name": "Kobalt Gen4 Walk Mower",
+    "price": 349.0,
+    "image": "images/blue-mower.avif",
+    "alt": "Heavy Duty Lawn Mower",
+    "link": "https://www.lowes.com/pd/Kobalt-Gen4-40-volt-20-in-Push-Cordless-Lawn-Mower-6-Ah-Battery-Charger-Included/5002905567",
+    "rating": 4.5,
+    "reviews": 180,
+    "description": "The Kobalt 40-Volt Max Brushless Motor Lawn Mower provides superior performance without the noise, mess, and fumes of gas. The 40V mower offers versatility with 3-1 cutting modes along convenient push button start."
+  },
+  {
+    "id": 5,
+    "name": "Sta-Green Premium 2-cu ft Brown Mulch",
+    "price": 3.98,
+    "image": "images/mulch-img.avif",
+    "alt": "bag of organic mulch",
+    "link": "https://www.lowes.com/pd/2-CU-FT-PREMIUM-BROWN-MULCH/5015112049",
+    "rating": 5,
+    "reviews": 62,
+    "description": "Sta-Green Premium Mulch is a decorative mulch that can be used to protect your landscape projects. Hardwood mulch retains moisture in the soil and insulates plants from extreme temperatures."
+  },
+  {
+    "id": 6,
+    "name": "EGO POWER + POWERLOAD",
+    "price": 299.0,
+    "image": "images/weed-whacker-img.avif",
+    "alt": "stringless weed whacker",
+    "link": "https://www.lowes.com/pd/EGO-56-volt-16-in-Telescopic-Cordless-String-Trimmer-4-Ah-Battery-and-Charger-Included/5005424097",
+    "rating": 3.5,
+    "reviews": 22,
+    "description": "POWERLOAD™ Technology: feed the line, push a button and go. LINE IQ 56-volt 16-in Telescopic Shaft Battery String Trimmer 4.0 Ah (Battery Included) (Charger Included)"
+  },
+  {
+    "id": 7,
+    "name": "EGO POWER+ Handheld Leaf Blower",
+    "price": 299.0,
+    "image": "images/leaf-blower.avif",
+    "alt": "leaf blower",
+    "link": "https://www.lowes.com/pd/EGO-POWER-56-volt-765-CFM-200-MPH-Battery-Handheld-Leaf-Blower-5-Ah-Battery-and-Charger-Included/5005381953",
+    "rating": 5,
+    "reviews": 240,
+    "description": "The EGO POWER+ 765 CFM Blower delivers powerful clearing performance with air speeds up to 200 MPH and up to 765 CFM. Its speed control dial allows you to adjust your airflow from 260 CFM to 580 CFM for ultimate control."
+  },
+  {
+    "id": 8,
+    "name": "Greenworks Pro 3000-PSI Electric Pressure Washer",
+    "price": 349.0,
+    "image": "images/pressure-washer.avif",
+    "alt": "pressure washer",
+    "link": "https://www.lowes.com/pd/Greenworks-Pro-Greenworks-3000-Pressure-Washer/5001554495",
+    "rating": 3.5,
+    "reviews": 103,
+    "description": "The Greenworks Pro 3000 PSI pressure washer is the most powerful residential electric pressure washer available. Boasting 2.0 Max GPM of water flow, it's powerful and built for the toughest cleaning tasks."
+  }
+]

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Noto+Kufi+Arabic:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -23,10 +24,10 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   flex-direction: column;
   justify-content: space-between;
-}
-.product__grid:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(117, 117, 117, 0.1568627451);
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px #75757528;
+  }
 }
 
 .product__header {
@@ -35,7 +36,7 @@
   font-style: normal;
   font-size: 4.5rem;
   color: #004aab;
-  text-shadow: rgba(137, 127, 127, 0.5294117647) -7px 5px 6px;
+  text-shadow: #897f7f87 -7px 5px 6px;
   text-align: center;
   margin: 2% 0;
 }
@@ -133,10 +134,11 @@
 }
 
 .product__button:hover {
-  background-color: rgba(113, 251, 178, 0.5529411765);
+  background-color: #71fbb28d;
 }
 
 /* Grid Area Assignments */
+
 .product__footer {
   width: 100%;
   background-color: #004aab;
@@ -161,6 +163,7 @@
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 }
+
 @media screen and (max-width: 430px) {
   .product__container {
     display: flex;
@@ -176,5 +179,3 @@
     padding: 0.5rem;
   }
 }
-
-/*# sourceMappingURL=product.css.map */
